@@ -1,0 +1,27 @@
+.img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 35px;
+}
+.foodit{
+    width:15%;
+    height:35vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 8px #00000029;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-name{
+    font: normal normal 600 15px/20px Poppins;
+    color: #192F60;
+    line-height: 25px;
+    
+}

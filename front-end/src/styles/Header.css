@@ -1,0 +1,117 @@
+.main-logo{
+    background : #CE0505;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:3rem;
+    padding-right: 3rem;
+}
+
+#logo-inside{
+    width:60px; 
+    height:60px;
+    border-radius:60%; 
+    background:white;
+}
+
+#text-logo{
+    font: normal normal 600 33px/50px Poppins;
+    color: #EB2929;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-sign{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap:1.2rem;
+
+}
+
+#login{
+    color:white;
+}
+
+.md-title{
+    font :normal normal 600 25px/50px Poppins;
+    color: #192F60;
+    margin-left: 15px;
+}
+
+.foot{
+    text-align: center; font: normal normal normal 16px/25px Poppins;color: #192F60;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+  }
+
+  .btn-close{
+    width:20px;
+    height:5px;
+    margin-top: 15px;
+  }
+
+  #here{
+    text-decoration: none;
+    color: darkred;
+
+  }
+  #mo{
+    width:440px;
+  }
+
+.form-fill{
+    padding-left: 7rem;
+}
+.log-userinformation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1.2rem;
+    align-items: center;
+}
+.user-name{
+    color: wheat;
+}
+.user-name-exist{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+.user{
+    width:70%;
+    height:4vh;
+    border:none;
+    border-bottom: solid 2px blue;
+    outline: none;
+    margin-bottom:1rem;
+}
+.submit{
+    width: 30%;
+    height:4vh;
+    background-color: blue;
+    color:white;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;   
+}
+.forgot{
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.profile{
+    width: 50px;
+    height: 40px;
+    border-radius: 35px;
+}

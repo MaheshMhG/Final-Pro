@@ -1,0 +1,116 @@
+.filter{
+    width: 18%;
+    height: 62vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 8px #00000029;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+.gettingdata{
+    margin-left:3rem;
+    margin-top: 2.5rem;
+}
+.li-item{
+    width: 700px; 
+    height:220px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 1rem;
+}
+.li-item-inside{
+    display: flex; 
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin: 10px;
+    gap: 80px
+}
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 35px;
+    margin-left: 25%;
+}
+.rest-name{
+    font: normal normal 600 30px/46px Poppins; color: #192F60;
+}
+.rest-location{
+    font: normal normal 500 16px/30px Poppins; color: #192F60;
+}
+.rest-address{
+    font: normal normal normal 16px/30px Poppins; color: #636F88;
+}
+.Bakery{
+    font: normal normal normal 16px/30px Poppins;color: #636F88;
+}
+.bakery-inside{
+    font: normal normal normal 16px/30px Poppins;color: #192F60; margin-left: 80px;
+}
+
+.Cuisine-item {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.checkbox-items {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+.select-body{
+    font: normal normal 600 18px/27px Poppins;
+    color: #192F60;
+    padding: 10px;
+    margin-left: 10px;
+}
+.sel-itm{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px #8c96ab;
+    margin-left: 15px;
+    font-weight: 500;
+    font-style: bold;
+}
+.pagebtn{
+    width:30px;
+    height:40px;
+    background-color: #192F60;
+    border: 2px solid white;
+    color: white;
+}
+.loading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #192F60;
+    position: relative;
+    top:50%;
+}
+
+@media (max-width:990px){
+    .sel-itm{
+        width:120px;
+    }
+    .sl-tm{
+        width:120px;
+    }
+}
